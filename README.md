@@ -4,10 +4,12 @@ Probabilistic future video frame prediction using Generative Adversarial Network
 As proposed by Ian Goodfellow in 2014, Generative Adversarial Networks are essentially two networks, a Generator and a Discriminator, pressed against eachother that learn from the opposite one's losses in a minmax game. 
 
 ## Generative Adversarial Networks:
-![alt text](https://github.com/himol7/GANs-Regret-Minimization/blob/master/images/gans-diagram.jpg)
+![alt text](https://github.com/himol7/GANs-Regret-Minimization/blob/master/images/gans-diagram.jpg) 
+
 Source: https://www.slideshare.net/ckmarkohchang/generative-adversarial-networks/11
 
-minmax V(D,G) represents the min-max game between the Discriminator and Generator. Loss function used here: Log loss function.
+minmax V(D,G) represents the min-max game between the Discriminator and Generator. 
+Loss function used here: Log loss function.
 
 ## Regret Minimization:
 ![alt text](https://github.com/himol7/GANs-Regret-Minimization/blob/master/images/blockdiagram-w2.PNG)
